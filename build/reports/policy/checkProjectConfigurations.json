@@ -1,0 +1,15 @@
+{
+    "violationsCount": 0,
+    "violations": [
+        
+    ],
+    "policyMode": "ENFORCE",
+    "additionalInfo": {
+        "artifactGroup": "Artifact group must match pattern - com.copyright.rup.[a-z.]*",
+        "packageNames": "Java packages starts with artifact group",
+        "rootDirectoryName": "The directory in which the root project project must start with rootProject.name specified in settings.gradle",
+        "publicRepositories": "Public repositories listed above are not allowed to use for buildscript and project repositories.You can use only artifacts.copyright.com or ivylocal repositories.",
+        "applyPlugins": "One or more files contain \"plugins\" block(Plugins DSL) for applying plugins. \nProjects should use the class \"buildscript\" block plus \"apply\" statement. "
+    },
+    "violationsFound": false
+}

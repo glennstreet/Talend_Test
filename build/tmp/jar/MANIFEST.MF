@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Implementation-Title: data-warehouse-order-etl
+Target-Compatibility: 1.8
+Build-Tool: Gradle 4.10.3
+Built-From-Project: data-warehouse-order
+Build-Timestamp: 2021-06-01 00:00:00 EDT
+Built-From-Repo: (local)
+Built-From-ID: (local)
+Implementation-Version: 2.0.6-LOCAL
+Artifact-Name: data-warehouse-order-etl
+Built-By: gstreet
+Artifact-Version: 2.0.6-LOCAL
+Build-Type: LOCAL
+Rup-Config-Properties: 
+Project-Type: unknown
+Build-Applied-Plugins: com.github.ben-manes.versions, info.solidsoft.p
+ itest, org.gradle.base, org.gradle.checkstyle, org.gradle.findbugs, o
+ rg.gradle.help-tasks, org.gradle.java, org.gradle.java-base, org.grad
+ le.lifecycle-base, org.gradle.pmd, org.gradle.reporting-base
+Version-Scheme: PRODUCT
+Artifact-Group: com.copyright.rup.data.warehouse.order
+Build-Host: gstreet2.copyright.com
+Build-Server: local
+Built-From-Branch: (local)
+Build-Plugins: 6.5.2
+Build-Jdk: 1.8.0_242 (Amazon.com Inc. 25.242-b08)
+

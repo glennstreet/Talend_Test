@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_w6eREEsmEemqsu9OeE-Qpw" name="P_DEV_Rightslink" id="_n-a8EEsmEemqsu9OeE-Qpw" label="P_DEV_Rightslink" dataPackage="_w-CicEsmEemqsu9OeE-Qpw" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://rlnk-pdev-aurora-mysql-cluster.cluster-cu7rodhtsk0h.us-east-1.rds.amazonaws.com:3306/rightslinkdb?noDatetimeStringSync=true" dbVersionString="MYSQL_8" Port="3306" Username="gstreet" Password="C0uaRJK6rosH654wxOktqw==" ServerName="rlnk-pdev-aurora-mysql-cluster.cluster-cu7rodhtsk0h.us-east-1.rds.amazonaws.com" DatasourceName="" FileFieldName="" SID="rightslinkdb" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_w6eREUsmEemqsu9OeE-Qpw" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_w6mM4EsmEemqsu9OeE-Qpw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_w6mM4UsmEemqsu9OeE-Qpw" tag="Status" value=""/>
+    <taggedValue xmi:id="_w6mM4ksmEemqsu9OeE-Qpw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_w6mM40smEemqsu9OeE-Qpw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_w6mM5EsmEemqsu9OeE-Qpw" tag="Description" value=""/>
+    <taggedValue xmi:id="_w6mM5UsmEemqsu9OeE-Qpw" tag="Author" value=""/>
+    <taggedValue xmi:id="_w6mM5ksmEemqsu9OeE-Qpw" tag="otherParameter"/>
+    <taggedValue xmi:id="_w8PysEsmEemqsu9OeE-Qpw" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_w8PysUsmEemqsu9OeE-Qpw" tag="DB ProductVersion" value="5.6.10"/>
+    <taggedValue xmi:id="_w8PysksmEemqsu9OeE-Qpw" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_w6eREksmEemqsu9OeE-Qpw" key="CONN_PARA_KEY_USERNAME" value="gstreet"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_w-CicEsmEemqsu9OeE-Qpw" name="rightslinkdb" dataManager="_w6eREEsmEemqsu9OeE-Qpw"/>
+</xmi:XMI>

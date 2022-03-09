@@ -1,0 +1,800 @@
+---
+licenses:
+  blacklist:
+    license: 
+      - 
+        _id: AGPL-3.0
+        aliases: 
+          alias: 
+            - AGPL-3.0
+            - "GNU Affero General Public License 3.0 (AGPL-3.0)"
+            - "GNU Affero General Public License"
+        name: "Affero General Public License"
+        url: "https://opensource.org/licenses/AGPL-3.0"
+      - 
+        _id: GPL-2.0
+        aliases: 
+          alias: 
+            - GPL-2.0
+            - "GNU General Public License version 2.0"
+        name: "GNU General Public License version 2.0 (GPL-2.0)"
+        url: "https://opensource.org/licenses/GPL-2.0"
+      - 
+        _id: GPL-3.0
+        aliases: 
+          alias: 
+            - GPL-3.0
+            - "GNU General Public License version 3.0"
+        name: "GNU General Public License version 3.0 (GPL-3.0)"
+        url: "https://opensource.org/licenses/GPL-3.0"
+      - 
+        _id: UNKNOWN
+        aliases: 
+          alias:
+            - unknown
+            - "No license found"
+        name: UNKNOWN
+  libraries:
+    blacklistedDependencies: 
+      dependency: "bar:foo:1.0.0"
+    whitelistedDependencies: 
+      dependency: "foo:bar:1.0.0"
+  whitelist: 
+    license: 
+      - 
+        _id: AFL-3.0
+        aliases: 
+          alias: 
+            - AFL-3.0
+            - "Academic Free License"
+        name: "Academic Free License 3.0 (AFL-3.0)"
+        url: "https://opensource.org/licenses/AFL-3.0"
+      - 
+        _id: APL-1.0
+        aliases: 
+          alias: 
+            - APL-1.0
+            - "Adaptive Public License"
+        name: "Adaptive Public License (APL-1.0)"
+        url: "https://opensource.org/licenses/APL-1.0"
+      - 
+        _id: Apache-2.0
+        aliases: 
+          alias: 
+            - Apache
+            - "Apache 2"
+            - "Apache License 2.0"
+            - "Apache License Version 2.0"
+            - "Apache License, Version 2.0"
+            - "Apache Software Licenses"
+            - "The Apache Software License, Version 2.0"
+        name: "Apache License 2.0 (Apache-2.0)"
+        url: "https://opensource.org/licenses/Apache-2.0"
+      - 
+        _id: APSL-2.0
+        aliases: 
+          alias: 
+            - "Apple Public Source License"
+        name: "Apple Public Source License (APSL-2.0)"
+        url: "https://opensource.org/licenses/APSL-2.0"
+      - 
+        _id: Artistic-2.0
+        aliases: 
+          alias: 
+            - "Artistic license"
+        name: "Artistic license 2.0 (Artistic-2.0)"
+        url: "https://opensource.org/licenses/Artistic-2.0"
+      - 
+        _id: AAL
+        aliases: 
+          alias: 
+            - "Artistic license"
+        name: "Attribution Assurance Licenses (AAL)"
+        url: "https://opensource.org/licenses/AAL"
+      - 
+        _id: BSD-3-Clause
+        aliases: 
+          alias: 
+            - "BSD- 3- Clause"
+        name: "BSD 3-Clause New or Revised License (BSD-3-Clause)"
+        url: "https://opensource.org/licenses/BSD-3-Clause"
+      - 
+        _id: BSD-2-Clause
+        aliases: 
+          alias: 
+            - BSD-2-Clause
+            - "BSD"
+            - "BSD licence"
+            - "BSD License"
+            - "BSD style"
+            - "BSD-style license"
+        name: "BSD 2- Clause Simplified or FreeBSD License (BSD-2-Clause)"
+        url: "https://opensource.org/licenses/BSD-2-Clause"
+      - 
+        _id: BSL-1.0
+        aliases: 
+          alias: 
+            - BSL
+        name: "Boost Software License (BSL-1.0)"
+        url: "https://opensource.org/licenses/BSL-1.0"
+      -
+        _id: CCC
+        aliases:
+          alias:
+            - Copyright Clearance Center
+        name: "Copyright Clearance Center"
+        url: "http://www.copyright.com"
+      -
+        _id: CECILL-2.1
+        aliases: 
+          alias: 
+            - CeCILL
+        name: "CeCILL License 2.1 (CECILL-2.1)"
+        url: "https://opensource.org/licenses/CECILL-2.1"
+      - 
+        _id: CATOSL-1.1
+        aliases: 
+          alias: 
+            - CATOSL
+        name: "Computer Associates Trusted Open Source License 1.1 (CATOSL-1.1)"
+        url: "https://opensource.org/licenses/CATOSL-1.1"
+      -
+        _id: CDDL-1.0
+        aliases:
+          alias:
+            - CDDL-1.0
+            - "CDDL"
+            - "Common Development and Distribution License (CDDL) v1.0"
+        name: "Common Development and Distribution License (CDDL-1.0)"
+        url: "https://opensource.org/licenses/CDDL-1.0"
+      -
+        _id: CPAL-1.0
+        aliases:
+          alias:
+            - CPAL-1.0
+        name: "Common Public Attribution License Version 1.0 (CPAL-1.0)"
+        url: "https://opensource.org/licenses/CPAL-1.0"
+      -
+       _id: CUA-OPL-1.0
+       aliases:
+         alias:
+           - CUA-OPL-1.0
+           - "CUA Office Public License Version 1.0"
+       name: "CUA Office Public License (CUA-OPL-1.0)"
+       url: "https://opensource.org/licenses/CUA-OPL-1.0"
+      -
+       _id: EUDatagrid
+       aliases:
+         alias:
+           - EUDatagrid
+           - "EU DataGrid Software License"
+       name: "EU DataGrid Software License (EUDatagrid)"
+       url: "https://opensource.org/licenses/EUDatagrid"
+      -
+       _id: EPL-1.0
+       aliases:
+         alias:
+           - EPL-1.0
+           - "Eclipse Public License 1.0"
+           - "Eclipse Public License, Version 1.0"
+           - "Eclipse Public License - v 1.0"
+       name: "Eclipse Public License 1.0 (EPL-1.0)"
+       url: "https://opensource.org/licenses/EPL-1.0"
+      -
+       _id: eCos-2.0
+       aliases:
+         alias:
+           - eCos-2.0
+       name: "eCos License version 2.0"
+       url: "https://opensource.org/licenses/eCos-2.0"
+      -
+       _id: ECL-2.0
+       aliases:
+         alias:
+           - ECL-2.0
+           - "Educational Community License, Version 2.0"
+       name: "Educational Community License, Version 2.0 (ECL-2.0)"
+       url: "https://opensource.org/licenses/ECL-2.0"
+      -
+       _id: EFL-2.0
+       aliases:
+         alias:
+           - EFL-2.0
+           - "Eiffel Forum License v2.0"
+           - "Eiffel Forum License, Version 2"
+       name: "Eiffel Forum License v2.0 (EFL-2.0)"
+       url: "https://opensource.org/licenses/EFL-2.0"
+      -
+       _id: Entessa
+       aliases:
+         alias:
+           - Entessa
+           - "Entessa Public License"
+           - "Entessa Public License Version. 1.0"
+       name: "Entessa Public License (Entessa)"
+       url: "https://opensource.org/licenses/Entessa"
+      -
+       _id: EUPL-1.1
+       aliases:
+         alias:
+           - EUPL-1.1
+           - "European Union Public License, version 1.1"
+       name: "European Union Public License, version 1.1 (EUPL-1.1)"
+       url: "https://opensource.org/licenses/EUPL-1.1"
+      -
+       _id: Fair
+       aliases:
+         alias:
+           - Fair
+           - "Fair License"
+       name: "Fair License (Fair)"
+       url: "https://opensource.org/licenses/Fair"
+      -
+       _id: Frameworx-1.0
+       aliases:
+         alias:
+           - Frameworx-1.0
+           - "Frameworx License 1.0"
+           - "Frameworx Open License 1.0 (Frameworx-1.0)"
+       name: "Frameworx License 1.0 (Frameworx-1.0)"
+       url: "https://opensource.org/licenses/Frameworx-1.0"
+      -
+       _id: FPL-1.0.0
+       aliases:
+         alias:
+           - FPL-1.0.0
+       name: "Free Public License 1.0.0"
+       url: "https://opensource.org/licenses/FPL-1.0.0"
+      -
+       _id: LGPL-2.1
+       aliases:
+         alias:
+           - LGPL-2.1
+           - "GNU Lesser General Public License, version 2.1"
+           - "LGPL 2.1"
+       name: "GNU Lesser General Public License, version 2.1 (LGPL-2.1)"
+       url: "https://opensource.org/licenses/LGPL-2.1"
+      -
+       _id: LGPL-3.0
+       aliases:
+         alias:
+           - LGPL-3.0
+           - "LGPL"
+           - "GNU Lesser General Public License"
+           - "GNU Lesser General Public License, version 3.0"
+       name: "GNU Lesser General Public License, version 3.0 (LGPL-3.0)"
+       url: "https://opensource.org/licenses/LGPL-3.0"
+      -
+       _id: HPND
+       aliases:
+         alias:
+           - HPND
+           - "Historical Permission Notice and Disclaimer"
+       name: "Historical Permission Notice and Disclaimer (HPND)"
+       url: "https://opensource.org/licenses/HPND"
+      -
+       _id: IPL-1.0
+       aliases:
+         alias:
+           - IPL-1.0
+           - "IBM Public License Version 1.0"
+       name: "IBM Public License Version 1.0 (IPL-1.0)"
+       url: "https://opensource.org/licenses/IPL-1.0"
+      -
+       _id: IPA
+       aliases:
+         alias:
+           - IPA
+       name: "IPA Font License (IPA)"
+       url: "https://opensource.org/licenses/IPA"
+      -
+       _id: ISC
+       aliases:
+         alias:
+           - ISC
+           - "ISC License"
+       name: "ISC License (ISC)"
+       url: "https://opensource.org/licenses/ISC"
+      -
+       _id: LPPL-1.3c
+       aliases:
+         alias:
+           - LPPL-1.3c
+           - "LaTeX Project Public License v1.3c"
+           - "LaTeX Project Public License, Version 1.3c"
+       name: "LaTeX Project Public License v1.3c (LPPL-1.3c)"
+       url: "https://opensource.org/licenses/LPPL-1.3c"
+      -
+       _id: LiLiQ-P-1.1
+       aliases:
+         alias:
+           - LiLiQ-P-1.1
+           - "Licence Libre du Québec – Permissive version 1.1"
+       name: "Licence Libre du Québec – Permissive (LiLiQ-P) version 1.1"
+       url: "https://opensource.org/licenses/LiLiQ-P-1.1"
+      -
+       _id: LiLiQ-R-1.1
+       aliases:
+         alias:
+           - LiLiQ-R-1.1
+           - "Licence Libre du Québec – Réciprocité version 1.1"
+       name: "Licence Libre du Québec – Réciprocité (LiLiQ-R) version 1.1"
+       url: "https://opensource.org/licenses/LiLiQ-R-1.1"
+      -
+       _id: LiLiQ-Rplus-1.1
+       aliases:
+         alias:
+           - LiLiQ-Rplus-1.1
+           - "Licence Libre du Québec – Réciprocité forte version 1.1"
+       name: "Licence Libre du Québec – Réciprocité forte (LiLiQ-R+) version 1.1"
+       url: "https://opensource.org/licenses/LiLiQ-Rplus-1.1"
+      -
+       _id: LPL-1.02
+       aliases:
+         alias:
+           - LPL-1.02
+           - "Lucent Public License v1.02"
+           - "Lucent Public License Version 1.02"
+       name: "Lucent Public License v1.02 (LPL-1.02)"
+       url: "https://opensource.org/licenses/LPL-1.02"
+      -
+       _id: MirOS
+       aliases:
+         alias:
+           - MirOS
+           - "MirOS License"
+       name: "MirOS License (MirOS)"
+       url: "https://opensource.org/licenses/MirOS"
+      -
+       _id: MS-PL
+       aliases:
+         alias:
+           - MS-PL
+           - "Microsoft Public License"
+       name: "Microsoft Public License (MS-PL)"
+       url: "https://opensource.org/licenses/MS-PL"
+      -
+       _id: MS-RL
+       aliases:
+         alias:
+           - MS-RL
+           - "Microsoft Reciprocal License"
+       name: "Microsoft Reciprocal License (MS-RL)"
+       url: "https://opensource.org/licenses/MS-RL"
+      -
+       _id: MIT
+       aliases:
+         alias:
+           - MIT
+           - "MIT License"
+           - "The MIT License"
+       name: "MIT License (MIT)"
+       url: "https://opensource.org/licenses/MIT"
+      -
+       _id: Motosoto
+       aliases:
+         alias:
+           - Motosoto
+           - "Motosoto Open Source License - Version 0.9.1"
+       name: "Motosoto Open Source License - Version 0.9.1 (Motosoto)"
+       url: "https://opensource.org/licenses/Motosoto"
+      -
+       _id: MPL-1.0
+       aliases:
+         alias:
+           - MPL-1.0
+           - "Mozilla Public License 1.0"
+       name: "Mozilla Public License 1.0 (MPL-1.0)"
+       url: "https://opensource.org/licenses/MPL-1.0"
+      -
+       _id: MPL-1.1
+       aliases:
+         alias:
+           - MPL-1.1
+           - "Mozilla Public License 1.1"
+       name: "Mozilla Public License 1.1 (MPL-1.1)"
+       url: "https://opensource.org/licenses/MPL-1.1"
+      -
+       _id: MPL-2.0
+       aliases:
+         alias:
+           - MPL-2.0
+           - "Mozilla Public License 2.0"
+       name: "Mozilla Public License 2.0 (MPL-2.0)"
+       url: "https://opensource.org/licenses/MPL-2.0"
+      -
+       _id: Multics
+       aliases:
+         alias:
+           - Multics
+           - "Multics License"
+       name: "Multics License (Multics)"
+       url: "https://opensource.org/licenses/Multics"
+      -
+       _id: NASA-1.3
+       aliases:
+         alias:
+           - NASA-1.3
+           - "NASA Open Source Agreement 1.3"
+       name: "NASA Open Source Agreement 1.3 (NASA-1.3)"
+       url: "https://opensource.org/licenses/NASA-1.3"
+      -
+       _id: NTP
+       aliases:
+         alias:
+           - NTP
+           - "NTP License"
+       name: "NTP License (NTP)"
+       url: "https://opensource.org/licenses/NTP"
+      -
+       _id: Naumen
+       aliases:
+         alias:
+           - Naumen
+           - "NAUMEN Public License"
+       name: "NAUMEN Public License (Naumen)"
+       url: "https://opensource.org/licenses/Naumen"
+      -
+       _id: NGPL
+       aliases:
+         alias:
+           - NGPL
+           - "Nethack General Public License"
+       name: "Nethack General Public License (NGPL)"
+       url: "https://opensource.org/licenses/NGPL"
+      -
+       _id: Nokia
+       aliases:
+         alias:
+           - Nokia
+           - NOKOS
+           - "Nokia Open Source License"
+           - "Nokia Open Source License Version 1.0a"
+       name: "Nokia Open Source License (Nokia)"
+       url: "https://opensource.org/licenses/Nokia"
+      -
+       _id: NPOSL-3.0
+       aliases:
+         alias:
+           - NPOSL-3.0
+           - "Non-Profit Open Software License 3.0"
+       name: "Non-Profit Open Software License 3.0 (NPOSL-3.0)"
+       url: "https://opensource.org/licenses/NPOSL-3.0"
+      -
+       _id: OCLC-2.0
+       aliases:
+         alias:
+           - OCLC-2.0
+           - "OCLC Research Public License 2.0 License"
+       name: "OCLC Research Public License 2.0 License (OCLC-2.0)"
+       url: "https://opensource.org/licenses/OCLC-2.0"
+      -
+       _id: OGTSL
+       aliases:
+         alias:
+           - OGTSL
+           - "Open Group Test Suite License"
+       name: "Open Group Test Suite License (OGTSL)"
+       url: "https://opensource.org/licenses/OGTSL"
+      -
+       _id: OSL-3.0
+       aliases:
+         alias:
+           - OSL-3.0
+           - "Open Software License 3.0"
+       name: "Open Software License 3.0 (OSL-3.0)"
+       url: "https://opensource.org/licenses/OSL-3.0"
+      -
+       _id: OPL-2.1
+       aliases:
+         alias:
+           - OPL-2.1
+       name: "OSET Public License version 2.1"
+       url: "https://opensource.org/licenses/OPL-2.1"
+      -
+       _id: PHP-3.0
+       aliases:
+         alias:
+           - PHP-3.0
+           - "PHP License 3.0"
+       name: "PHP License 3.0 (PHP-3.0)"
+       url: "https://opensource.org/licenses/PHP-3.0"
+      -
+       _id: PostgreSQL
+       aliases:
+         alias:
+           - PostgreSQL
+           - "PostgreSQL Licence"
+           - "The PostgreSQL License"
+       name: "PostgreSQL Licence (PostgreSQL)"
+       url: "https://opensource.org/licenses/PostgreSQL"
+      -
+       _id: Python-2.0
+       aliases:
+         alias:
+           - Python-2.0
+           - "Python License"
+       name: "Python License (Python-2.0)"
+       url: "https://opensource.org/licenses/Python-2.0"
+      -
+       _id: CNRI-Python
+       aliases:
+         alias:
+           - CNRI-Python
+           - "CNRI Python license"
+           - "CNRI portion of multi-part Python License"
+       name: "CNRI Python license (CNRI-Python)"
+       url: "https://opensource.org/licenses/CNRI-Python"
+      -
+       _id: QPL-1.0
+       aliases:
+         alias:
+           - QPL-1.0
+           - "Q Public License"
+       name: "Q Public License (QPL-1.0)"
+       url: "https://opensource.org/licenses/QPL-1.0"
+      -
+       _id: RPSL-1.0
+       aliases:
+         alias:
+           - RPSL-1.0
+           - "RealNetworks Public Source License v1.0"
+       name: "RealNetworks Public Source License v1.0 (RPSL-1.0)"
+       url: "https://opensource.org/licenses/RPSL-1.0"
+      -
+       _id: RPL-1.5
+       aliases:
+         alias:
+           - RPL-1.5
+           - "Reciprocal Public License 1.5"
+       name: "Reciprocal Public License 1.5 (RPL-1.5)"
+       url: "https://opensource.org/licenses/RPL-1.5"
+      -
+       _id: RSCPL
+       aliases:
+         alias:
+           - RSCPL
+           - "Ricoh Source Code Public License"
+       name: "Ricoh Source Code Public License (RSCPL)"
+       url: "https://opensource.org/licenses/RSCPL"
+      -
+       _id: OFL-1.1
+       aliases:
+         alias:
+           - OFL-1.1
+           - "SIL Open Font License v1.1"
+       name: "SIL Open Font License v1.1 (OFL-1.1)"
+       url: "https://opensource.org/licenses/OFL-1.1"
+      -
+       _id: SimPL-2.0
+       aliases:
+         alias:
+           - SimPL-2.0
+           - "Simple Public License 2.0"
+       name: "Simple Public License 2.0 (SimPL-2.0)"
+       url: "https://opensource.org/licenses/SimPL-2.0"
+      -
+       _id: Sleepycat
+       aliases:
+         alias:
+           - Sleepycat
+           - "Sleepycat License"
+       name: "Sleepycat License (Sleepycat)"
+       url: "https://opensource.org/licenses/Sleepycat"
+      -
+       _id: SPL-1.0
+       aliases:
+         alias:
+           - SPL-1.0
+           - "Sun Public License 1.0"
+       name: "Sun Public License 1.0 (SPL-1.0)"
+       url: "https://opensource.org/licenses/SPL-1.0"
+      -
+       _id: Watcom-1.0
+       aliases:
+         alias:
+           - Watcom-1.0
+           - "Sybase Open Source Licence"
+       name: "Sybase Open Watcom Public License 1.0 (Watcom-1.0)"
+       url: "https://opensource.org/licenses/Watcom-1.0"
+      -
+       _id: NCSA
+       aliases:
+         alias:
+           - NCSA
+           - "University of Illinois/NCSA Open Source License"
+       name: "University of Illinois/NCSA Open Source License (NCSA)"
+       url: "https://opensource.org/licenses/NCSA"
+      -
+       _id: UPL
+       aliases:
+         alias:
+           - UPL
+           - "Universal Permissive License"
+           - "Universal Permissive License 1.0"
+       name: "Universal Permissive License 1.0 (UPL-1.0)"
+       url: "https://opensource.org/licenses/UPL"
+      -
+       _id: VSL-1.0
+       aliases:
+         alias:
+           - VSL-1.0
+           - "Vovida Software License v. 1.0"
+       name: "Vovida Software License v. 1.0 (VSL-1.0)"
+       url: "https://opensource.org/licenses/VSL-1.0"
+      -
+       _id: W3C
+       aliases:
+         alias:
+           - W3C
+           - "W3C Software Notice And License"
+           - "W3C® Software Notice And License"
+       name: "W3C Software Notice And License (W3C)"
+       url: "https://opensource.org/licenses/W3C"
+      -
+       _id: WXwindows
+       aliases:
+         alias:
+           - WXwindows
+           - "wxWindows Library Licence"
+       name: "wxWindows Library Licence (WXwindows)"
+       url: "https://opensource.org/licenses/WXwindows"
+      -
+       _id: Xnet
+       aliases:
+         alias:
+           - Xnet
+           - "X.Net License"
+           - "X.Net, Inc. License"
+       name: "X.Net License (Xnet)"
+       url: "https://opensource.org/licenses/Xnet"
+      -
+       _id: ZPL-2.0
+       aliases:
+         alias:
+           - ZPL-2.0
+           - "Zope Public License 2.0"
+           - "Zope Public License Ver.2.0"
+       name: "Zope Public License 2.0 (ZPL-2.0)"
+       url: "https://opensource.org/licenses/ZPL-2.0"
+      -
+       _id: Zlib
+       aliases:
+         alias:
+           - Zlib
+           - "zlib/libpng License"
+       name: "zlib/libpng License (Zlib)"
+       url: "https://opensource.org/licenses/Zlib"
+      -
+       _id: Public-Domain
+       aliases:
+         alias:
+           - Public-Domain
+           - "Public Domain"
+       name: "Public Domain"
+       url: "https://en.wikipedia.org/wiki/Public_domain"
+    whitelistedDependencies:
+      - dependency: "accounting@0.4.1"
+      - dependency: "ant:ant-launcher:1.6.5" # Apache License 2.0 https://github.com/apache/ant/blob/rel/1.6.5/src/main/org/apache/tools/ant/launch/Launcher.java
+      - dependency: "asm:asm-parent:3.1"
+      - dependency: "async-foreach@0.1.3"
+      - dependency: "backbone-nested@2.0.4"
+      - dependency: "beaker@1.0.0" # MIT (https://github.com/h2non/requireg)
+      - dependency: "buffers@0.1.1" # MIT (https://github.com/substack/node-buffers)
+      - dependency: "cglib:cglib-nodep:2.1_3"
+      - dependency: "cli-color@0.1.7" # ISC (https://github.com/medikoo/cli-color/blob/master/LICENSE)
+      - dependency: "color-convert@0.5.3"
+      - dependency: "colors@0.5.1"
+      - dependency: "com.adobe.acs.shared:DistribTool:1.2"
+      - dependency: "com.caucho:hessian:3.2.0"
+      - dependency: "com.cybersource.simapi:cybssecurity:5.0.2"
+      - dependency: "com.cybersource.simapi:cybsclients15:5.0.2"
+      - dependency: "com.force.api:force-rest-api:0.0.23" # https://github.com/jesperfj/force-rest-api/blob/master/README.md indicates that the API is released under a BSD 2-clause license
+      - dependency: "com.oracle:ojdbc6:11.2.0.3"
+      - dependency: "com.oracle:ojdbc8:12.2.0.1"
+      - dependency: "commons-collections:commons-collections:2.1"
+      - dependency: "commons-discovery:commons-discovery:0.2"
+      - dependency: "commons-fileupload:commons-fileupload:1.3.2-rup-01"
+      - dependency: "commons-logging:commons-logging:1.0.3"
+      - dependency: "cyclist@0.2.2"
+      - dependency: "deep@1.2.3"
+      - dependency: "dom4j:dom4j:1.6.1"
+      - dependency: "domelementtype@1.1.3"
+      - dependency: "domelementtype@1.3.0"
+      - dependency: "domutils@1.5.1"
+      - dependency: "dotdotdot@1.7.0" # MIT (https://www.npmjs.com/package/dotdotdot)
+      - dependency: "dreamopt@0.6.0" # MIT (https://github.com/andreyvit/dreamopt.js/blob/master/LICENSE)
+      - dependency: "eclipse:jdtcore:3.1.0"
+      - dependency: "es5-ext@0.8.2" # ISC (https://github.com/medikoo/es5-ext/blob/master/LICENSE)
+      - dependency: "extsprintf@1.0.2"
+      - dependency: "indexof@0.0.1"
+      - dependency: "inherits@1.0.2" # ISC (https://github.com/isaacs/inherits)
+      - dependency: "isnumeric@0.2.0"
+      - dependency: "javax.jms:jms:1.1"
+      - dependency: "javax.servlet.jsp:jsp-api:2.1"
+      - dependency: "javax.servlet:jstl:1.2"
+      - dependency: "javax.servlet:servlet-api:2.4"
+      - dependency: "javax.servlet:servlet-api:2.5"
+      - dependency: "javax.transaction:jta:1.1"
+      - dependency: "json-diff@0.5.4" # MIT (https://github.com/andreyvit/json-diff/blob/master/LICENSE-MIT)
+      - dependency: "jstl:jstl:1.2"
+      - dependency: "jquery-file-download@1.4.6"
+      - dependency: "jquery.dotdotdot@1.7.4" # MIT (https://mvnrepository.com/artifact/org.webjars.bower/jQuery.dotdotdot/1.7.4)
+      - dependency: "log4j:log4j:1.2.9"
+      - dependency: "map-stream@0.1.0"
+      - dependency: "memory-cache@0.0.5" # The 2-Clause BSD (https://github.com/ptarjan/node-cache)
+      - dependency: "mimic-fn@1.1.0"
+      - dependency: "ms@0.7.1"
+      - dependency: "net.jcip:jcip-annotations:1.0" # Public (https://mvnrepository.com/artifact/net.jcip/jcip-annotations)
+      - dependency: "net.sourceforge.schemaspy:schemaspy:5.0.0"
+      - dependency: "nomnom@1.6.2"
+      - dependency: "null@null"
+      - dependency: "onecolor@2.4.2"
+      - dependency: "org.aopalliance:com.springsource.org.aopalliance:1.0.0"
+      - dependency: "org.apache.axis:axis-client:1.4-rup-01"
+      - dependency: "org.apache.commons:commons-io:1.3.2"
+      - dependency: "org.apache.ibatis:ibatis-sqlmap:2.3.4.726"
+      - dependency: "org.codehaus:codehaus-parent:3"      
+      - dependency: "org.codehaus.castor:castor:1.2"
+      - dependency: "org.icepdf.pro:icepdf-core:6.1.0"
+      - dependency: "org.icepdf.pro:icepdf-core:6.2.2"
+      - dependency: "org.icepdf.pro:icepdf-core:6.3.2" # Apache License 2.0 and ICEsoft Commercial https://www.icesoft.org/java/license/icepdf-terms-conditions-v3.1.jsf
+      - dependency: "org.icepdf.pro:icepdf-pro:6.2.2"
+      - dependency: "org.icepdf.pro:icepdf-pro:6.3.2" # Apache License 2.0 and ICEsoft Commercial https://www.icesoft.org/java/license/icepdf-terms-conditions-v3.1.jsf
+      - dependency: "org.icepdf.pro:icepdf-pro-intl:6.2.2"
+      - dependency: "org.icepdf.pro:icepdf-pro-intl:6.3.2" # Apache License 2.0 and ICEsoft Commercial https://www.icesoft.org/java/license/icepdf-terms-conditions-v3.1.jsf
+      - dependency: "org.icepdf.pro:icepdf-viewer:6.1.0"
+      - dependency: "org.icepdf.pro:icepdf-viewer:6.2.2"
+      - dependency: "org.icepdf.pro:icepdf-viewer:6.3.2" # Apache License 2.0 and ICEsoft Commercial https://www.icesoft.org/java/license/icepdf-terms-conditions-v3.1.jsf
+      - dependency: "org.jdesktop:swing-worker:1.1"
+      - dependency: "org.sonatype.oss:oss-parent:9" # Apache License 2.0 https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+      - dependency: "org.springframework.ldap:spring-ldap-parent:1.3.1.RELEASE"
+      - dependency: "org.vaadin.addon:confirmdialog:1.2.1" # Apache License 2.0 https://vaadin.com/directory/component/confirmdialog/1.2.1
+      - dependency: "org.vaadin.addon:confirmdialog:2.0.5"
+      - dependency: "org.vaadin.addon:confirmdialog:2.1.3" # Apache License 2.0 https://vaadin.com/directory/component/confirmdialog
+      - dependency: "org.vaadin.addons.lazyquerycontainer:vaadin-lazyquerycontainer:1.2.9"
+      - dependency: "org.vaadin.addons.lazyquerycontainer:vaadin-lazyquerycontainer:2.1.15"
+      - dependency: "org.vaadin.addons.lazyquerycontainer:vaadin-lazyquerycontainer:7.6.1.3"
+      - dependency: "org.vaadin.addons:pagedtable:0.6.5"
+      - dependency: "org.vaadin.addons:popupbutton:2.6.0" # Apache License 2.0 https://vaadin.com/directory/component/popupbutton
+      - dependency: "p-limit@1.1.0"
+      - dependency: "pleeease-filters@3.0.1"
+      - dependency: "pleeease-filters@4.0.0"
+      - dependency: "portlet-api:portlet-api:1.0"
+      - dependency: "prompts@0.1.14" # MIT (https://github.com/terkelg/prompts/tree/v0.1.14#-license)
+      - dependency: "registration-component@0.0.2" # reference-apps before CCC license added
+      - dependency: "registration-component@0.0.9" # rs-ui before CCC license added
+      - dependency: "retry@0.6.1" # MIT (https://github.com/tim-kos/node-retry)
+      - dependency: "ru.xpoft.vaadin:spring-vaadin-integration:2.0.2"
+      - dependency: "ru.xpoft.vaadin:spring-vaadin-integration:3.1"
+      - dependency: "ru.xpoft.vaadin:spring-vaadin-integration:3.2"
+      - dependency: "stax:stax:1.2.0"
+      - dependency: "stdout-stream@1.4.0"
+      - dependency: "trim@0.0.1"
+      - dependency: "ua-parser-js@0.7.12" # GPLv2 or MIT (https://github.com/faisalman/ua-parser-js/tree/0.7.12#license)
+      - dependency: "ua-parser-js@0.7.17" # GPLv2 or MIT (https://github.com/faisalman/ua-parser-js/tree/0.7.17#license)
+      - dependency: "ua-parser-js@0.7.18" # GPLv2 or MIT (https://github.com/faisalman/ua-parser-js/tree/0.7.18#license)
+      - dependency: "ua-parser-js@0.7.19" # GPLv2 or MIT (https://github.com/faisalman/ua-parser-js/tree/0.7.19#license)
+      - dependency: "underscore@1.4.4"
+      - dependency: "unorm@1.4.1"
+      - dependency: "unorm@1.5.0" # MIT or GPL (https://github.com/walling/unorm/blob/v1.5.0/LICENSE.md)
+      - dependency: "unorm@1.6.0" # MIT or GPL-2.0 (https://github.com/walling/unorm/blob/v1.6.0/LICENSE.md)
+      - dependency: "verror@1.3.6"
+      - dependency: "workerpool@2.3.0"
+      - dependency: "workerpool@2.3.1" # Apache License 2.0 (https://github.com/josdejong/workerpool/blob/master/LICENSE)
+      - dependency: "wsdl4j:wsdl4j:1.5.1"
+      - dependency: "xalan:xalan:2.7.0"
+      - dependency: "xml-apis:xml-apis:1.3.02"
+      - dependency: "xml-apis:xml-apis:2.0.2"
+      - dependency: "commons-codec:commons-codec:1.2" # Apache 2.0 https://mvnrepository.com/artifact/commons-codec/commons-codec
+      - dependency: "com.epam.reportportal:agent-java-jbehave:3.0.3-BETA-1" # GPL-3.0
+      - dependency: "com.epam.reportportal:logger-java-logback:3.0.0" # GPL-3.0
+      - dependency: "com.epam.reportportal:client-java:3.0.10" # GPL-3.0
+      - dependency: "com.epam.reportportal:logger-java-logback:4.0.0" # GPL-3.0
+      - dependency: "com.epam.reportportal:client-java:4.0.9" # GPL-3.0
+      - dependency: "com.epam.reportportal:agent-java-testng:4.0.2" # # Apache License 2.0 https://github.com/reportportal/agent-java-testNG/blob/master/LICENSE
+      - dependency: "com.epam.reportportal:agent-java-jbehave:4.2.0" # GPL-3.0
+      - dependency: "exectimer@2.2.1"  # MIT (https://github.com/alexandrusavin/exectimer/blob/master/LICENSE)
+      - dependency: "com.epam.reportportal:agent-java-jbehave:4.0.1" # Apache License 2.0 https://github.com/reportportal/agent-java-jbehave/blob/master/LICENSE
+      - dependency: "com.epam.reportportal:client-java:4.0.1" # Apache License 2.0 https://github.com/reportportal/client-java/blob/master/LICENSE
+

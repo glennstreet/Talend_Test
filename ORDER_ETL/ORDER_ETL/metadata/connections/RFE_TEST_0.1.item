@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_uS3kEK4rEemiNN0URg18HQ" name="RFE_TEST" id="_c5tf4K4rEemiNN0URg18HQ" label="RFE_TEST" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://:1433/;" dbVersionString="JTDS" Port="1433" Username="svc-rup" Password="WGIMtm5HmUI2VYG3StPcKg==" ServerName="" DatasourceName="" FileFieldName="" SID="" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+  <taggedValue xmi:id="_uS4LIK4rEemiNN0URg18HQ" tag="Is Conn Need Reload" value="false"/>
+  <taggedValue xmi:id="_uTLtIK4rEemiNN0URg18HQ" tag="package filter" value=""/>
+  <taggedValue xmi:id="_uTQloK4rEemiNN0URg18HQ" tag="Status" value=""/>
+  <taggedValue xmi:id="_uTQloa4rEemiNN0URg18HQ" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_uTQloq4rEemiNN0URg18HQ" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_uTQlo64rEemiNN0URg18HQ" tag="Description" value=""/>
+  <taggedValue xmi:id="_uTQlpK4rEemiNN0URg18HQ" tag="Author" value=""/>
+  <taggedValue xmi:id="_uTQlpa4rEemiNN0URg18HQ" tag="otherParameter"/>
+  <parameters xmi:id="_uS4LIa4rEemiNN0URg18HQ" key="CONN_PARA_KEY_USERNAME" value="svc-rup"/>
+</TalendMetadata:DatabaseConnection>

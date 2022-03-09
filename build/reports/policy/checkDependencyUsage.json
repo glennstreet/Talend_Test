@@ -1,0 +1,15 @@
+{
+    "violationsCount": 0,
+    "violations": [
+        
+    ],
+    "policyMode": "ENFORCE",
+    "additionalInfo": {
+        "black": "* Black List Dependencies:\n* The libraries listed above have been reviewed by the Architecture team and found unsuitable for use by libraries intended to be consumed by other projects (black-listed).\n* Run the \"printBlacklistedDependencies\" task to list all black-listed dependencies for project type CLIENT_LIBRARY.\n* See also https://sites.google.com/a/pubget.com/general/scm/gradle/rup-plugins/client-libraries, and contact the PE Team if you have further questions.",
+        "gray": "* Gray List Dependencies:\n* The libraries listed above have been reviewed by the Architecture team and their use is not allowed by default by libraries intended to be consumed by other projects (gray-listed)\n* If one or more is truly required, follow the DSL example below in the specific sub-project build.gradle file:\n    rup {\n         dependencyUsage{\n                  allow = ['org.apache.commons','com.google.guava:guava']\n        }\n  }\n* Run the \"printGraylistedDependencies\" task to list all gray-listed dependencies for project type CLIENT_LIBRARY.\n* See also https://sites.google.com/a/pubget.com/general/scm/gradle/rup-plugins/client-libraries, and contact the PE Team if you have further questions.",
+        "unknown": "* Unknown Dependencies:\n* The libraries listed above have not been reviewed with respect to suitability for use by libraries intended to be consumed by other projects.\n* The first step is to see if different approved libraries meet your needs; run the \"printWhitelistedDependencies\" task for options for project type CLIENT_LIBRARY.\n* Otherwise, please contact the PE Team for next steps.\n* See also https://sites.google.com/a/pubget.com/general/scm/gradle/rup-plugins/client-libraries.",
+        "invalidClientLibraryUsage": "* Invalid client library usage:\n* The libraries listed above are not defined as client libraries and not allowed for consuming.\n* See https://sites.google.com/a/pubget.com/general/scm/gradle/rup-plugins/client-libraries, and contact the PE Team if you have further questions.",
+        "invalidGroupClientLibraryUsage": "* Invalid group client library usage:\n* The libraries listed above are defined as group client libraries. But project group not belongs to the dependency group family. So this library is not allowed for consuming.\n* See https://sites.google.com/a/pubget.com/general/scm/gradle/rup-plugins/client-libraries, and contact the PE Team if you have further questions."
+    },
+    "violationsFound": false
+}

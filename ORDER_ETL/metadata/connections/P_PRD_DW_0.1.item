@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_KCpr4EsmEemqsu9OeE-Qpw" name="P_PRD_DW" id="_5K4dgEslEemqsu9OeE-Qpw" label="P_PRD_DW" dataPackage="_KHUwgEsmEemqsu9OeE-Qpw" DatabaseType="Oracle with service name" DriverClass="oracle.jdbc.OracleDriver" URL="jdbc:oracle:thin:@(description=(address=(protocol=tcp)(host=pprd1dw1.aws-p-prd.copyright.com)(port=1541))(connect_data=(service_name=dwp1.copyright.com)))" dbVersionString="ORACLE_12" Port="1541" Username="dw_report" Password="Q2FMW4K58ajFUfQLKlj1dA==" ServerName="pprd1dw1.aws-p-prd.copyright.com" SID="dwp1.copyright.com" SqlSynthax="" StringQuote="" NullChar="" DbmsId="oracle_id" ProductId="ORACLE" StandardSQL="true" SQLMode="false" UiSchema="DW_REPORT">
+    <taggedValue xmi:id="_KCpr4UsmEemqsu9OeE-Qpw" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_KC4VYEsmEemqsu9OeE-Qpw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_KC4VYUsmEemqsu9OeE-Qpw" tag="Status" value=""/>
+    <taggedValue xmi:id="_KC4VYksmEemqsu9OeE-Qpw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_KC4VY0smEemqsu9OeE-Qpw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_KC4VZEsmEemqsu9OeE-Qpw" tag="Description" value=""/>
+    <taggedValue xmi:id="_KC4VZUsmEemqsu9OeE-Qpw" tag="Author" value=""/>
+    <taggedValue xmi:id="_KC4VZksmEemqsu9OeE-Qpw" tag="otherParameter"/>
+    <taggedValue xmi:id="_KEzoAEsmEemqsu9OeE-Qpw" tag="DB ProductName" value="Oracle"/>
+    <taggedValue xmi:id="_KEzoAUsmEemqsu9OeE-Qpw" tag="DB ProductVersion" value="Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production"/>
+    <taggedValue xmi:id="_KEzoAksmEemqsu9OeE-Qpw" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_KCpr4ksmEemqsu9OeE-Qpw" key="CONN_PARA_KEY_USERNAME" value="dw_report"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_KHUwgEsmEemqsu9OeE-Qpw" name="DW_REPORT" dataManager="_KCpr4EsmEemqsu9OeE-Qpw"/>
+</xmi:XMI>

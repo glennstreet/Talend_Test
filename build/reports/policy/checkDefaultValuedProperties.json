@@ -1,0 +1,13 @@
+{
+    "violationsCount": 0,
+    "violations": [
+        
+    ],
+    "policyMode": "ENFORCE",
+    "additionalInfo": {
+        "javaDefaultValuedProperties": "Default valued properties is not allowed for expression in @Value(\"...\") annotation. More details https://sites.google.com/a/pubget.com/general/scm/gradle/rup-plugins/custom-policy-checks#TOC-Default-Valued-Configuration-Properties .",
+        "xmlDefaultValuedProperties": "Default value is not allowed for expression $RUP{...} in xml.  More details https://sites.google.com/a/pubget.com/general/scm/gradle/rup-plugins/custom-policy-checks#TOC-Default-Valued-Configuration-Properties .",
+        "propertiesDefaultValuedProperties": "Default value is not allowed for expression $RUP{...} in properties.  More details https://sites.google.com/a/pubget.com/general/scm/gradle/rup-plugins/custom-policy-checks#TOC-Default-Valued-Configuration-Properties ."
+    },
+    "violationsFound": false
+}

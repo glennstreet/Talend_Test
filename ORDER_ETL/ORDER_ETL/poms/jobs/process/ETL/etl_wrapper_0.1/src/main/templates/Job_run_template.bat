@@ -1,0 +1,3 @@
+%~d0
+cd %~dp0
+java -Dtalend.component.manager.m2.repository=%cd%/../lib -Xms1024M -Xmx2048M -cp .;../lib/routines.jar;../lib/dom4j-1.6.1.jar;../lib/ini4j-0.5.1.jar;../lib/log4j-1.2.17.jar;../lib/mysql-connector-java-8.0.12.jar;../lib/ojdbc7.jar;../lib/postgresql-42.2.5.jar;../lib/talendcsv.jar;etl_wrapper_0_1.jar;rl_etl_0_1.jar;ebus_etl_0_1.jar;tf_etl_0_1.jar;oms_etl_0_1.jar;promote_to_final_0_1.jar; order_etl.etl_wrapper_0_1.etl_wrapper  --context=Default %*

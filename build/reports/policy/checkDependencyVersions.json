@@ -1,0 +1,20 @@
+{
+    "violationsCount": 1,
+    "violations": [
+        {
+            "results": [
+                
+            ],
+            "policyType": "MASTER_PRODUCT",
+            "policyName": "checkDependencyVersions"
+        }
+    ],
+    "policyMode": "ENFORCE",
+    "additionalInfo": {
+        "MASTER_PRODUCT": "The master branch of a project using the PRODUCT version scheme:\n* May use dynamic versions of com.copyright dependencies\n* Must use concrete versions of third-party dependencies",
+        "RELEASE_PRODUCT": "A release branch of a project using the PRODUCT version scheme:\n* May use dynamic versions of com.copyright dependencies\n* Must use concrete versions of third-party dependencies",
+        "MASTER_LIBRARY": "The master branch of a project using the LIBRARY version scheme:\n* Must use concrete versions of com.copyright dependencies\n* Must use concrete versions of third-party dependencies",
+        "RELEASE_LIBRARY": "A release branch of a project using the LIBRARY version scheme:\n* Must use concrete versions of com.copyright dependencies\n* Must use concrete versions of third-party dependencies"
+    },
+    "violationsFound": true
+}

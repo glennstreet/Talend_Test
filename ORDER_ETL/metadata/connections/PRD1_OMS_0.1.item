@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_ZnxKIEsnEemqsu9OeE-Qpw" name="PRD1_OMS" id="_LYKQ0EsnEemqsu9OeE-Qpw" label="PRD1_OMS" dataPackage="_Zsmm0EsnEemqsu9OeE-Qpw" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://prdc1rcustsqldb1:5433/rup" dbVersionString="V9_X" Port="5433" Username="rup_read" Password="zZ5gXhhvfoTh1KJYC67zXg==" ServerName="prdc1rcustsqldb1" DatasourceName="" FileFieldName="" SID="rup" SqlSynthax="" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="apps">
+    <taggedValue xmi:id="_ZnxKIUsnEemqsu9OeE-Qpw" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_Zn6UEEsnEemqsu9OeE-Qpw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_Zn6UEUsnEemqsu9OeE-Qpw" tag="Status" value=""/>
+    <taggedValue xmi:id="_Zn6UEksnEemqsu9OeE-Qpw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_Zn6UE0snEemqsu9OeE-Qpw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_Zn6UFEsnEemqsu9OeE-Qpw" tag="Description" value=""/>
+    <taggedValue xmi:id="_Zn6UFUsnEemqsu9OeE-Qpw" tag="Author" value=""/>
+    <taggedValue xmi:id="_Zn6UFksnEemqsu9OeE-Qpw" tag="otherParameter"/>
+    <taggedValue xmi:id="_ZqCbAEsnEemqsu9OeE-Qpw" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_ZqCbAUsnEemqsu9OeE-Qpw" tag="DB ProductVersion" value="10.3"/>
+    <taggedValue xmi:id="_ZqCbAksnEemqsu9OeE-Qpw" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_ZnxKIksnEemqsu9OeE-Qpw" key="CONN_PARA_KEY_USERNAME" value="rup_read"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_Zsmm0EsnEemqsu9OeE-Qpw" name="rup" dataManager="_ZnxKIEsnEemqsu9OeE-Qpw">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_Zsmm0UsnEemqsu9OeE-Qpw" name="apps"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

@@ -1,0 +1,40 @@
+[WARNING] Disabling enhanced local repository: using legacy is strongly discouraged to ensure build reproducibility.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ORDER_ETL promote_to_final-0.1.0 (0.1,Job Designs) 0.1.0
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for log4j:log4j:jar:1.2.17 is missing, no dependency information available
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ promote_to_final ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ promote_to_final ---
+[INFO] Not compiling main sources
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ promote_to_final ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ promote_to_final ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20:test (default-test) @ promote_to_final ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ promote_to_final ---
+[INFO] Building jar: /Users/gstreet/RUP/workspaces/data-warehouse-order/data-warehouse-order-etl/ORDER_ETL/ORDER_ETL/poms/jobs/process/ETL/promote_to_final_0.1/target/promote_to_final_0_1.jar
+[INFO] 
+[INFO] --- maven-assembly-plugin:3.0.0:single (default) @ promote_to_final ---
+[INFO] Reading assembly descriptor: /Users/gstreet/RUP/workspaces/data-warehouse-order/data-warehouse-order-etl/ORDER_ETL/ORDER_ETL/poms/jobs/process/ETL/promote_to_final_0.1/src/main/assemblies/assembly.xml
+[WARNING] Missing POM for log4j:log4j:jar:1.2.17
+[INFO] Building zip: /Users/gstreet/RUP/workspaces/data-warehouse-order/data-warehouse-order-etl/ORDER_ETL/ORDER_ETL/poms/jobs/process/ETL/promote_to_final_0.1/target/promote_to_final_0_1.zip
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.271 s
+[INFO] Finished at: 2019-06-18T09:48:41-05:00
+[INFO] Final Memory: 11M/491M
+[INFO] ------------------------------------------------------------------------

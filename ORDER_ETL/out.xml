@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<root>
+<row>
+<key>ebus_port</key>
+<value>1530</value>
+</row>
+<row>
+<key>ebus_database</key>
+<value>OAD2</value>
+</row>
+<row>
+<key>ebus_username</key>
+<value>apps</value>
+</row>
+<row>
+<key>host</key>
+<value>dev2cdb1.copyright.com</value>
+</row>
+<row>
+<key>ebus_schema</key>
+<value>APPS</value>
+</row>
+<row>
+<key>ebus_password</key>
+<value>apps</value>
+</row>
+</root>

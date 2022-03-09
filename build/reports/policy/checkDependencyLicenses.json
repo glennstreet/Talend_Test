@@ -1,0 +1,11 @@
+{
+    "violationsCount": 0,
+    "violations": [
+        
+    ],
+    "policyMode": "ENFORCE",
+    "additionalInfo": {
+        "blacklistedLicenses": "Dependencies with blacklisted licenses or no license are not allowed."
+    },
+    "violationsFound": false
+}

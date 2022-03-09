@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_2ky2EEwXEemO4scg3RSZXA" name="P_DEV_RFE" id="_CxU50EwXEemO4scg3RSZXA" label="P_DEV_RFE" dataPackage="_2n_7EEwXEemO4scg3RSZXA" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://devrfesqlapp.corp.infotrieve.com:1433/ReportServer;instance=devrfesqlapp" dbVersionString="JTDS" Port="1433" Username="gstreet" Password="cUSMr79d2w735vgSDsJnog==" ServerName="devrfesqlapp.corp.infotrieve.com" DatasourceName="" FileFieldName="" SID="ReportServer" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="instance=devrfesqlapp" StandardSQL="true" SQLMode="false" UiSchema="dbo">
+    <taggedValue xmi:id="_2ky2EUwXEemO4scg3RSZXA" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_2lNFwEwXEemO4scg3RSZXA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_2lR-QEwXEemO4scg3RSZXA" tag="Status" value=""/>
+    <taggedValue xmi:id="_2lR-QUwXEemO4scg3RSZXA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_2lR-QkwXEemO4scg3RSZXA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_2lR-Q0wXEemO4scg3RSZXA" tag="Description" value=""/>
+    <taggedValue xmi:id="_2lR-REwXEemO4scg3RSZXA" tag="Author" value=""/>
+    <taggedValue xmi:id="_2lR-RUwXEemO4scg3RSZXA" tag="otherParameter"/>
+    <taggedValue xmi:id="_2l3NEEwXEemO4scg3RSZXA" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_2l3NEUwXEemO4scg3RSZXA" tag="DB ProductVersion" value="10.50.6560"/>
+    <taggedValue xmi:id="_2l3NEkwXEemO4scg3RSZXA" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_2ky2EkwXEemO4scg3RSZXA" key="CONN_PARA_KEY_USERNAME" value="gstreet"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_2n_7EEwXEemO4scg3RSZXA" name="ReportServer" dataManager="_2ky2EEwXEemO4scg3RSZXA">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_2n_7EUwXEemO4scg3RSZXA" name="dbo"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
